@@ -2,6 +2,7 @@
 Tools used in the publishing of the PEARC19 StashCache paper
 
 Cite as:
+
 Derek Weitzel, Marian Zvada, Ilija Vukotic, Rob Gardner, Brian Bockelman, Mats Rynge, Edgar Fajardo Hernandez, Brian Lin, and Mátyás Selmeci. 2019. StashCache: A Distributed Caching Federation for the Open Science Grid.In PEARC ’19: Practice and Experience in Advanced Research Computing, Jul 28–Aug. 1, 2019, Chicago, IL.ACM, New York, NY, USA, 7 pages.
 
 ## Requirements
