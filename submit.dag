@@ -1,0 +1,15 @@
+JOB A test.condor
+JOB B test.condor
+JOB C test.condor
+JOB D test.condor
+JOB E test.condor
+PARENT A CHILD B
+PARENT B CHILD C
+PARENT C CHILD D
+PARENT D CHILD E
+VARS A site="SU-ITS-CE2"
+VARS B site="UColorado_HEP"
+VARS C site="BELLARMINE_TIER2"
+VARS D site="Nebraska"
+VARS E site="MWT2"
+

@@ -1,0 +1,17 @@
+
+executable = test.sh
+arguments = test5
+output = out.$(Cluster).$(Process).$(site)
+error = error.$(Cluster).$(Process)
+log = log
+
+transfer_input_files = stashcp.py, caches.json
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+requirements = GLIDEIN_ResourceName == "$(site)"
+queue
+
+#requirements = GLIDEIN_ResourceName == ""
+#queue
